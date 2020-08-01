@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="armas_cbr" author="" >
+<exp obj="Arma" type="Concept" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="armas_cbr" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Acionamento" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Calibre" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Nome" c="Arma" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Portabilidade2" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Municao" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Restricao" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Tamanho" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Portabilidade1" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Sistema_Carregamento" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Funcionamento" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Alma_Cano" c="Arma" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="Arma #21" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #22" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #3" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #7" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #24" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #9" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #11" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #2" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #14" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #27" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #19" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #8" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #16" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #30" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #0" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #20" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #4" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #5" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #10" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #13" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #23" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #26" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #17" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #28" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #6" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #12" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #25" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #1" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #15" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #18" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Arma #29" c="Arma" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>
