@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="jogos_eletronicos" author="" >
+<instances name="Jogo">
+  <instance id="Jogo #4" >
+    <att name="genero" value="Tiro;" />
+    <att name="plataforma" value="Atari 2600;" />
+    <att name="ano" value="1978" />
+    <att name="nome" value="1978" />
+    <att name="classificacao indicativa" value="L" />
+  </instance>
+  <instance id="Jogo #1" >
+    <att name="genero" value="Acao;Aventura;" />
+    <att name="plataforma" value="PC;PS3;XBOX 360;" />
+    <att name="ano" value="2008" />
+    <att name="nome" value="GTA IV" />
+    <att name="classificacao indicativa" value="18" />
+  </instance>
+  <instance id="Jogo #0" >
+    <att name="genero" value="Acao;Aventura;" />
+    <att name="plataforma" value="SNES;" />
+    <att name="ano" value="1998" />
+    <att name="nome" value="Super Metroid" />
+    <att name="classificacao indicativa" value="L" />
+  </instance>
+  <instance id="Jogo #3" >
+    <att name="genero" value="Luta;" />
+    <att name="plataforma" value="PS4;XBOX ONE;PC;" />
+    <att name="ano" value="2015" />
+    <att name="nome" value="Tekken 7" />
+    <att name="classificacao indicativa" value="14" />
+  </instance>
+  <instance id="Jogo #2" >
+    <att name="genero" value="Corrida;" />
+    <att name="plataforma" value="PS2;XBOX;PC;" />
+    <att name="ano" value="2005" />
+    <att name="nome" value="Need For Speed Most Wanted" />
+    <att name="classificacao indicativa" value="L" />
+  </instance>
+</instances>
+<cb name="jogos_eletronicos">
+     <case name="Jogo #4" />
+     <case name="Jogo #1" />
+     <case name="Jogo #0" />
+     <case name="Jogo #3" />
+     <case name="Jogo #2" />
+</cb>
+</Project>

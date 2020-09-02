@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="jogos_eletronicos" author="" >
+<exp obj="jogos_eletronicos" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Jogo" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="genero" c="Jogo" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="plataforma" c="Jogo" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="ano" c="Jogo" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="nome" c="Jogo" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="classificacao indicativa" c="Jogo" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Jogo #0" c="Jogo" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Jogo #1" c="Jogo" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Jogo #3" c="Jogo" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Jogo #4" c="Jogo" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Jogo #2" c="Jogo" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>

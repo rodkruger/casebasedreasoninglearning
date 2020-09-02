@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="jogos_eletronicos" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Jogo">
+    <desc name="ano" type="Integer" min="1900" max="2100" mult="false" >
+      <fct name="SimAno" type="Integer" ltype="STEP_AT" lparam="-5.0" rtype="STEP_AT" rparam="5.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="genero" type="Symbol" mult="true" >
+      <symbol value="Luta" />
+      <symbol value="Corrida" />
+      <symbol value="Tiro" />
+      <symbol value="Acao" />
+      <symbol value="Aventura" />
+<fct name="SimGenero" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Luta">
+<csym name="Acao" sim="0.3"/>
+</qsym>
+<qsym name="Corrida">
+<csym name="Acao" sim="0.5"/>
+</qsym>
+<qsym name="Tiro">
+<csym name="Acao" sim="0.8"/>
+</qsym>
+<qsym name="Acao">
+<csym name="Luta" sim="0.3"/>
+<csym name="Corrida" sim="0.5"/>
+<csym name="Tiro" sim="0.8"/>
+<csym name="Aventura" sim="0.8"/>
+</qsym>
+<qsym name="Aventura">
+<csym name="Acao" sim="0.8"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Luta">
+</qsym>
+<qsym name="Corrida">
+</qsym>
+<qsym name="Tiro">
+</qsym>
+<qsym name="Acao">
+</qsym>
+<qsym name="Aventura">
+</qsym>
+</fct>
+    </desc>
+    <desc name="plataforma" type="Symbol" mult="true" >
+      <symbol value="PS4" />
+      <symbol value="XBOX ONE" />
+      <symbol value="PS3" />
+      <symbol value="PC" />
+      <symbol value="XBOX 360" />
+      <symbol value="Atari 2600" />
+      <symbol value="XBOX" />
+      <symbol value="PS2" />
+      <symbol value="SNES" />
+<fct name="SimPlataforma" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="false">
+<qsym name="PS4">
+<csym name="PS3" sim="0.5"/>
+<csym name="PS2" sim="0.3"/>
+</qsym>
+<qsym name="XBOX ONE">
+<csym name="XBOX 360" sim="0.5"/>
+<csym name="XBOX" sim="0.3"/>
+</qsym>
+<qsym name="PS3">
+<csym name="PS2" sim="0.5"/>
+</qsym>
+<qsym name="PC">
+</qsym>
+<qsym name="XBOX 360">
+<csym name="XBOX" sim="0.5"/>
+</qsym>
+<qsym name="Atari 2600">
+</qsym>
+<qsym name="XBOX">
+</qsym>
+<qsym name="PS2">
+</qsym>
+<qsym name="SNES">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="PS4">
+</qsym>
+<qsym name="XBOX ONE">
+</qsym>
+<qsym name="PS3">
+</qsym>
+<qsym name="PC">
+</qsym>
+<qsym name="XBOX 360">
+</qsym>
+<qsym name="Atari 2600">
+</qsym>
+<qsym name="XBOX">
+</qsym>
+<qsym name="PS2">
+</qsym>
+<qsym name="SNES">
+</qsym>
+</fct>
+    </desc>
+    <desc name="nome" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="classificacao indicativa" type="Symbol" mult="false" >
+      <symbol value="12" />
+      <symbol value="14" />
+      <symbol value="L" />
+      <symbol value="16" />
+      <symbol value="10" />
+      <symbol value="18" />
+<fct name="SimClassificacaoIndicativa" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="false">
+<qsym name="12">
+<csym name="10" sim="0.5"/>
+</qsym>
+<qsym name="14">
+<csym name="12" sim="0.5"/>
+<csym name="10" sim="0.5"/>
+</qsym>
+<qsym name="L">
+<csym name="12" sim="0.5"/>
+<csym name="14" sim="0.5"/>
+<csym name="16" sim="0.5"/>
+<csym name="10" sim="0.5"/>
+<csym name="18" sim="0.5"/>
+</qsym>
+<qsym name="16">
+<csym name="12" sim="0.5"/>
+<csym name="14" sim="0.5"/>
+<csym name="10" sim="0.5"/>
+</qsym>
+<qsym name="10">
+</qsym>
+<qsym name="18">
+<csym name="12" sim="0.5"/>
+<csym name="14" sim="0.5"/>
+<csym name="16" sim="0.5"/>
+<csym name="10" sim="0.5"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="12">
+</qsym>
+<qsym name="14">
+</qsym>
+<qsym name="L">
+</qsym>
+<qsym name="16">
+</qsym>
+<qsym name="10">
+</qsym>
+<qsym name="18">
+</qsym>
+</fct>
+    </desc>
+    <amalgam name="default function" type="WEIGHTED_SUM" active="true" >
+      <entry name="nome" active="false" fct="default function" weight="0.0"/>
+      <entry name="ano" active="true" fct="SimAno" weight="1"/>
+      <entry name="classificacao indicativa" active="true" fct="SimClassificacaoIndicativa" weight="1.0"/>
+      <entry name="genero" active="true" fct="SimGenero" weight="1"/>
+      <entry name="plataforma" active="true" fct="SimPlataforma" weight="1.0"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Jogo" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="5" cb="jogos_eletronicos"/>
+</Project>
